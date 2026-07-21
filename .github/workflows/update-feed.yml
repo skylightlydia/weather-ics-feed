@@ -1,0 +1,39 @@
+name: Update weather & AQI ICS feed
+
+on:
+  schedule:
+    # Runs daily at 11:00 UTC (~7am Eastern). Adjust as you like.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests icalendar
+
+      - name: Generate ICS file
+        run: |
+          python3 generate_weather_ics.py \
+            --lat 40.4406 --lon -79.9959 \
+            --name "Pittsburgh, PA" \
+            --days 7 \
+            --out docs/weather.ics
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/weather.ics
+          git diff --quiet --cached || git commit -m "Update weather & AQI feed"
+          git push
