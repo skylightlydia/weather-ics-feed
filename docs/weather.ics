@@ -5,81 +5,82 @@ X-WR-CALNAME:Weather & AQI — Pittsburgh, PA
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 83°/65°F • AQI 64 (Moderate)
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-DTSTAMP:20260827T205158Z
-UID:2026-08-27-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Overcast\nHigh: 83°F   Low: 65°F\nChance of prec
- ipitation: 14%\nMax wind: 9 mph\nAir Quality Index (US AQI\, daily max): 6
- 4 — Moderate
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 80°/63°F • AQI 76 (Moderate)
+SUMMARY:Pittsburgh\, PA: Overcast\, 79°/63°F • AQI 67 (Moderate)
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-08-28-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Overcast\nHigh: 80°F   Low: 63°F\nChance of prec
- ipitation: 7%\nMax wind: 10 mph\nAir Quality Index (US AQI\, daily max): 7
- 6 — Moderate
+DESCRIPTION:Conditions: Overcast\nHigh: 79°F   Low: 63°F\nChance of prec
+ ipitation: 18%\nMax wind: 9 mph\nAir Quality Index (US AQI\, daily max): 6
+ 7 — Moderate
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 83°/59°F • AQI 83 (Moderate)
+SUMMARY:Pittsburgh\, PA: Overcast\, 83°/57°F • AQI 59 (Moderate)
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-08-29-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Overcast\nHigh: 83°F   Low: 59°F\nChance of prec
- ipitation: 0%\nMax wind: 4 mph\nAir Quality Index (US AQI\, daily max): 83
+DESCRIPTION:Conditions: Overcast\nHigh: 83°F   Low: 57°F\nChance of prec
+ ipitation: 0%\nMax wind: 5 mph\nAir Quality Index (US AQI\, daily max): 59
   — Moderate
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 88°/64°F • AQI 96 (Moderate)
+SUMMARY:Pittsburgh\, PA: Overcast\, 88°/64°F • AQI 81 (Moderate)
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-08-30-Pittsburgh-PA@weather-aqi-ics
 DESCRIPTION:Conditions: Overcast\nHigh: 88°F   Low: 64°F\nChance of prec
- ipitation: 1%\nMax wind: 8 mph\nAir Quality Index (US AQI\, daily max): 96
+ ipitation: 2%\nMax wind: 9 mph\nAir Quality Index (US AQI\, daily max): 81
   — Moderate
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 82°/69°F • AQI 142 (Unhealthy for 
- Sensitive Groups)
+SUMMARY:Pittsburgh\, PA: Light drizzle\, 83°/70°F • AQI 113 (Unhealthy
+  for Sensitive Groups)
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-08-31-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Overcast\nHigh: 82°F   Low: 69°F\nChance of prec
- ipitation: 7%\nMax wind: 9 mph\nAir Quality Index (US AQI\, daily max): 14
- 2 — Unhealthy for Sensitive Groups
+DESCRIPTION:Conditions: Light drizzle\nHigh: 83°F   Low: 70°F\nChance of
+  precipitation: 3%\nMax wind: 7 mph\nAir Quality Index (US AQI\, daily max
+ ): 113 — Unhealthy for Sensitive Groups
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Overcast\, 93°/75°F
+SUMMARY:Pittsburgh\, PA: Moderate drizzle\, 91°/69°F • AQI 119 (Unheal
+ thy for Sensitive Groups)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-09-01-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Overcast\nHigh: 93°F   Low: 75°F\nChance of prec
- ipitation: 14%\nMax wind: 13 mph\nAir Quality Index: not available for thi
- s day
+DESCRIPTION:Conditions: Moderate drizzle\nHigh: 91°F   Low: 69°F\nChance
+  of precipitation: 9%\nMax wind: 10 mph\nAir Quality Index (US AQI\, daily
+  max): 119 — Unhealthy for Sensitive Groups
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pittsburgh\, PA: Partly cloudy\, 95°/74°F
+SUMMARY:Pittsburgh\, PA: Overcast\, 96°/72°F
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-DTSTAMP:20260827T205158Z
+DTSTAMP:20260828T211710Z
 UID:2026-09-02-Pittsburgh-PA@weather-aqi-ics
-DESCRIPTION:Conditions: Partly cloudy\nHigh: 95°F   Low: 74°F\nChance of
-  precipitation: 37%\nMax wind: 9 mph\nAir Quality Index: not available for
-  this day
+DESCRIPTION:Conditions: Overcast\nHigh: 96°F   Low: 72°F\nChance of prec
+ ipitation: 27%\nMax wind: 9 mph\nAir Quality Index: not available for this
+  day
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pittsburgh\, PA: Light drizzle\, 95°/75°F
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DTSTAMP:20260828T211710Z
+UID:2026-09-03-Pittsburgh-PA@weather-aqi-ics
+DESCRIPTION:Conditions: Light drizzle\nHigh: 95°F   Low: 75°F\nChance of
+  precipitation: 32%\nMax wind: 11 mph\nAir Quality Index: not available fo
+ r this day
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
